@@ -5,9 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>P-Ticket</title>
-
-    <link rel="stylesheet" href="./style/style.css">
-
+    <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
@@ -47,20 +45,19 @@
                     </ul>
                 </div>
                 <div class="navbar-end space-x-5">
-                    <img class="hidden lg:flex" src="./images/search.svg" alt="">
+                    <img class="hidden lg:flex" src="./Images/search.svg" alt="">
                     <a class="btn font-mediumBold bg-[#1DD1001A] text-[#1DD100]">Bus <img src="./images/bus-icon.png"
                             alt=""></a>
                 </div>
             </div>
         </nav>
-        <!-- nav bar ended -->
 
-        <!--banner section started -->
+        <!--Banner section-->
         <section class="container lg:h-[550px]  mx-auto mt-8 bg-[url(./images/banner.png)]  bg-no-repeat bg-center">
 
-            <div class=" flex flex-col justify-center items-center p-5 lg:p-20 space-y-5 ">
+            <div class=" flex flex-col justify-center items-center p-5 lg:p-20 space-y-8 ">
 
-                <h1 class=" text-2xl lg:text-6xl text-white font-extarBold">End-to-End Travel with </h1>
+                <h1 class="text-2xl lg:text-6xl text-white font-extarBold">End-to-End Travel with</h1>
                 <h1 class="text-2xl lg:text-6xl font-extarBold text-[#1DD100] text-center">P Paribahan</h1>
                 <p class="text-white">Yes, you can run unit tests and view the results directly within the app. The <br>
                     integrated testing features allow for a streamlined .</p>
@@ -68,15 +65,14 @@
                         Tickets</button></a>
             </div>
         </section>
-        <!-- banner section ended -->
 
     </header>
     <main>
-        <!-- best offers started -->
+        <!-- Best Offer -->
         <section class="container mx-auto mt-8">
             <h2 class="font-mediumBold text-4xl text-center ">Best offers for you</h2>
 
-            <!-- first card -->
+            <!-- 1 card -->
 
             <div class="flex justify-around lg:flex-row flex-col">
                 <div class="card mt-10 lg:w-[573px] bg-[#FFBF0F] shadow-xl">
@@ -101,8 +97,6 @@
 
                 </div>
 
-
-                <!-- first card end -->
                 <!-- second card -->
                 <div class="card mt-10 lg:w-[573px] bg-[#F78C9C] shadow-xl">
 
@@ -122,51 +116,45 @@
                         </div>
                     </div>
 
-
-
                 </div>
             </div>
-            <!-- second card end -->
             <div class="text-center mt-16">
-                <button class="btn border-[#1DD100] text-[#1DD100] bg-white">
-                    Seel All Offers
-                </button>
+                <button class="btn border-[#1DD100] text-[#1DD100] bg-white">Seel All Offers</button>
             </div>
 
         </section>
-        <!-- best offers ended -->
+
+
+
         <section id="seat-section"
-            class="bg-[#F7F8F8] mx-auto mt-10 border-t-2 border-[#1dd100] rounded-t-[88px] px-28 py-20">
+            class="bg-[#F7F8F8] mx-auto mt-10 border-t-2 border-[#1dd100] rounded-t-[88px] px-2 lg:px-28 py-10 lg:py-20">
 
             <div class="text-center">
-                <h1 class="font-mediumBold font-bold text-4xl text-black mb-6">
-                    P.H Paribahan
-                </h1>
-                <p class="inter-font text-lg font-normal">
+                <h1 class="text-2xl lg:text-6xl font-extarBoldtext-[#1DD100]">P Paribahan</h1>
+                <p class="mt-4 inter-font text-lg font-normal">
                     Yes, you can run unit tests and view the results directly within the
                     app. The integrated <br />
                     testing features allow for a streamlined .
                 </p>
             </div>
 
-            <!-- ticket-design-section -->
             <section class="flex items-center bg-white rounded-3xl mt-12">
                 <div class="flex-1 p-8">
-                    <div class="flex items-center justify-between mb-9">
-                        <div class="flex justify-center items-center gap-4">
+                    <div class="flex items-center justify-between lg:mb-9">
+                        <div class="flex justify-center items-center lg:gap-4">
                             <img src="images/bus-logo.png" alt="" />
                             <div>
-                                <h1>Greenline Paribahan</h1>
-                                <p>Coach-009-WEB ! AC_Business</p>
+                                <h1 class="lg:text-3xl font-mediumBold">Greenline Paribahan</h1>
+                                <p class="inter-regular">Coach-009-WEB ! AC_Business</p>
                             </div>
                         </div>
                         <div class="bg-[#1DD10026] p-2 border-none rounded-lg flex justify-center items-center gap-2">
                             <img src="images/seat-green.png" alt="" />
-                            <h1 class="text-[#1DD100]"><span id="total-seats">40</span> Seats left</h1>
+                            <h1 class=".inter-medium text-[#1DD100]"><span id="total-seats">40</span> Seats left</h1>
                         </div>
                     </div>
 
-                    <div class="bg-[#F7F8F8] p-6 rounded-3xl">
+                    <div class="bg-[#F7F8F8] lg:p-6 rounded-3xl">
                         <div class="flex justify-between items-center border-dashed border-b-2">
                             <h1 class="p-3">Route</h1>
                             <h2 class="p-3">Dhaka - Sylhet</h2>
@@ -177,13 +165,14 @@
                         </div>
                         <div class="flex justify-between items-center mt-3">
                             <div class="bg-[#0307120D] px-4 py-2 rounded-xl">
-                                <h1>Boarding Point - Laxmipur</h1>
+                                <h1 class="inter-medium">Boarding Point - Laxmipur</h1>
                             </div>
                             <div class="bg-[#0307120D] px-6 py-2 rounded-xl">
-                                <h1>Dropping Point - Bogura</h1>
+                                <h1 class="inter-medium">Dropping Point - Bogura</h1>
+
                             </div>
                             <div class="bg-[#0307120D] px-6 py-2 rounded-xl">
-                                <h1>Est. Time - 11 Hour</h1>
+                                <h1 class="inter-medium">Est. Time - 11 Hour</h1>
                             </div>
                         </div>
                     </div>
@@ -196,10 +185,9 @@
                 </div>
             </section>
 
-            <!-- select-your-seat-section -->
-            <section class="bg-white rounded-3xl p-6 mt-5 flex justify-between">
-                <!-- seat-design-section -->
-                <section class="w-4/6">
+            <!-- seat part -->
+            <section class="bg-white rounded-3xl p-2 lg:p-6 mt-5 lg:flex justify-between">
+                <section class="lg:w-4/6 w-full">
                     <div class="border-dashed border-b-2">
                         <h1 class="py-3 ">Select Your Seat</h1>
                     </div>
@@ -218,15 +206,14 @@
                         </div>
                     </div>
 
-                    <!-- seat-serial-section -->
+                    <!-- seat part -->
                     <section class="">
-                        <!-- icon -->
                         <div class="flex justify-end my-5">
                             <button class="btn w-28">
                                 <img src="./images/wheel.png" alt="" />
                             </button>
                         </div>
-                        <!-- serial A -->
+                        <!--seat A -->
                         <div class="flex w-full mb-5">
                             <div class="flex justify-center items-center">
                                 <h1 class="items-center p-4">A</h1>
@@ -250,7 +237,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- serial-B -->
+                        <!--seat B -->
                         <div class="flex w-full mb-5">
                             <div class="flex justify-center items-center">
                                 <h1 class="items-center p-4">B</h1>
@@ -274,7 +261,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- serial-c -->
+                        <!-- C -->
                         <div class="flex w-full mb-5">
                             <div class="flex justify-center items-center">
                                 <h1 class="items-center p-4">C</h1>
@@ -298,7 +285,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- serial-d -->
+                        <!--seat D -->
                         <div class="flex w-full mb-5">
                             <div class="flex justify-center items-center">
                                 <h1 class="items-center p-4">D</h1>
@@ -322,7 +309,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- serial-e -->
+                        <!--seat E -->
                         <div class="flex w-full mb-5">
                             <div class="flex justify-center items-center">
                                 <h1 class="items-center p-4">E</h1>
@@ -346,7 +333,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- serial-f -->
+                        <!--seat F -->
                         <div class="flex w-full mb-5">
                             <div class="flex justify-center items-center">
                                 <h1 class="items-center p-4">F</h1>
@@ -370,7 +357,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- serial-g -->
+                        <!--seat G -->
                         <div class="flex w-full mb-5">
                             <div class="flex justify-center items-center">
                                 <h1 class="items-center p-4">G</h1>
@@ -394,7 +381,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- serial-h -->
+                        <!--seat H -->
                         <div class="flex w-full mb-5">
                             <div class="flex justify-center items-center">
                                 <h1 class="items-center p-4">H</h1>
@@ -418,7 +405,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- serial-i -->
+                        <!--seat I -->
                         <div class="flex w-full mb-5">
                             <div class="flex justify-center items-center">
                                 <h1 class="items-center p-4">I</h1>
@@ -442,7 +429,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- serial-j -->
+                        <!--seat J -->
                         <div class="flex w-full mb-5">
                             <div class="flex justify-center items-center">
                                 <h1 class="items-center p-4">J</h1>
@@ -471,13 +458,13 @@
 
                 <div class="h-auto border border-dashed border-r-2 border-fill mx-4"></div>
 
-                <!-- seat-input-section -->
-                <section class="w-2/6">
+                <!-- seat selection -->
+                <section class="lg:w-2/6 w-full">
                     <div class="border-dashed border-b-2">
                         <h1 class="py-3">Select Your Seat</h1>
                     </div>
 
-                    <!-- price-total-card -->
+                    <!-- Total Price -->
                     <section class="bg-[#F7F8F8] p-4 mt-5 rounded-xl">
                         <div>
                             <table class="w-full text-left">
@@ -492,46 +479,52 @@
                                 </thead>
 
                                 <tbody id="t-body" class="border-solid border-b-4">
-                                    <!--Come from js -->
+                                    <!--Append by js -->
                                 </tbody>
 
                             </table>
-                            <div class="flex justify-between items-center py-2">
-                                <h1 class="inter-font font-medium">Total Price:</h1>
-                                <h1 class="inter-font font-medium">BDT <span id="total-price">0</span></h1>
+                            <div id="" class="flex justify-between items-center py-2">
+                                <h1 class=" font-medium">Total Price:</h1>
+                                <h1 class=" font-medium">BDT <span id="total-price">0</span></h1>
+
+                            </div>
+                            <div id="priceDiscountContainer" class="flex font-medium justify-between items-center py-2">
+                                <!-- Discount price append by js -->
                             </div>
                         </div>
-                        <label
+                        <label id="label-hide"
                             class="input outline-none border-none focus:outline-none focus:border-none flex items-center gap-2 mt-3">
-                            <input type="text"
+                            <input id="input-field" type="text"
                                 class="grow outline-none border-none focus:outline-none focus:border-none"
                                 placeholder="Have any coupon?" />
-                            <span class="badge badge-info p-4 rounded-lg bg-[#1DD100] text-white">Apply</span>
+
+                            <button id="apply-btn" class="btn p-4 rounded-lg bg-[#1DD100] text-white">Apply</button>
                         </label>
                         <div class="flex justify-between items-center py-5">
                             <h1 class="inter-font font-medium">Grand total:</h1>
                             <h2 class="inter-font font-medium">BDT <span id="grand-total">0</span></h2>
                         </div>
                     </section>
-                    <!-- Input-area -->
 
-                    <form action="./success.html">
-                        <label for="name" class="inter-font font-semibold text-base text-black">Passenger Name*
+                    <!-- Input section -->
+
+                    <form action="">
+                        <label for="name" class=" font-semibold text-base text-black">Passenger Name*
                         </label>
-                        <input type="text" placeholder="Enter Your Name"
-                            class="input w-full border-gray-300 border border-solid focus:outline-none focus:border-none my-2" required/>
-                        <label for="name" class="inter-font font-semibold text-base text-black">Phone Number*
+                        <input required id="name" type="text" placeholder="Enter Your Name"
+                            class="input w-full border-gray-300 border border-solid focus:outline-none focus:border-none my-2" />
+                        <label for="name" class=" font-semibold text-base text-black">Phone Number*
                         </label>
-                        <input type="text" placeholder="Enter your Phone Number"
-                            class="input w-full border-gray-300 border border-solid focus:outline-none focus:border-none my-2" required/>
-                        <label for="name" class="inter-font font-semibold text-base text-black">Email Id*
+                        <input required id="phone-number" type="tel" placeholder="Enter Your 11 Digit Phone Number"
+                            class="input w-full border-gray-300 border border-solid focus:outline-none focus:border-none my-2" />
+                        <label for="name" class=" font-semibold text-base text-black">Email Id*
                         </label>
-                        <input type="text" placeholder="Enter your Email ID"
-                            class="input w-full border-gray-300 border border-solid focus:outline-none focus:border-none mt-2" required/>
-                        <button
-                            class="w-full bg-[#1DD100] p-3 border-none rounded-lg raleway-font font-bold text-white my-6">Next
+                        <input required id="email" type="email" placeholder="Enter your Email ID"
+                            class="input w-full border-gray-300 border border-solid focus:outline-none focus:border-none mt-2" />
+                        <button onclick="formSubmit(event)"
+                            class="w-full bg-[#1dd100] p-3 rounded-lg  hover:bg-white hover:border-[#1dd100] hover:text-black hover:border font-bold  text-white my-6">
+                            Next
                         </button>
-                        
                     </form>
 
                     <!-- term & condition -->
@@ -539,6 +532,10 @@
                         <h2 class="underline"><a href="">Term and Conditions</a></h2>
                         <h2 class="underline"><a href="">Cancellation Policy</a></h2>
                     </div>
+
+
+
+
                 </section>
             </section>
         </section>
@@ -548,10 +545,10 @@
 
     </main>
     <!-- footer section start -->
-    <footer class="p-28 bg-[#030712] text-white">
+    <footer class="p-2 lg:p-28 bg-[#030712] text-white">
         <section class="flex flex-col lg:flex-row justify-between items-center">
             <div class="space-y-3">
-                <h1 class="raleway-font text-4xl font-extrabold text-white">
+                <h1 class=" text-4xl font-extrabold text-white">
                     P-Ticket
                 </h1>
                 <p class=" text-lg font-normal text-[#FFFFFFCC]">
@@ -583,10 +580,29 @@
         </section>
     </footer>
 
+    <!-- modal section -->
+    <dialog id="modal"
+        class="modal flex items-center w-full h-screen bg-[#ffffff9e]  mx-auto justify-center text-center">
+        <div class="modal-content w-3/5 flex justify-center items-center flex-col bg-white rounded-lg p-14 space-y-6">
+            <div><img src="images/success.png" alt="" /></div>
+            <h2 class=" font-extrabold text-2xl">Success</h2>
+            <p>
+                Thank you for Booking Our Bus Seats.<br />We are working hard to find
+                the best service and deals for you.
+            </p>
+            <p>Shortly you will find a confirmation in your email.</p>
+            <div class="w-full flex justify-center">
+                <button onclick="modalHide()" class="btn w-3/6 bg-green-600 p-3 rounded-full text-white font-bold my-6">
+                    Continue
+                </button>
+            </div>
+        </div>
+    </dialog>
+
+
+
 
     <script src="app.js"></script>
-    <!-- <script src="./scripts/utilitys.js"></script>
-    <script src="./scripts/script.js"></script> -->
 
 </body>
 
